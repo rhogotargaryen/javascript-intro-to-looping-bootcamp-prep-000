@@ -12,9 +12,7 @@ function forLoop(array) {
 }
 
 function whileLoop(n) {
-  i = 0;
-  while (i <= n);
-  console.log(--n);
-  i++;
-  return 'done'
+while( n >= 0) {
+  console.log(--n)
+}
 }
